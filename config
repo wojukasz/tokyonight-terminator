@@ -1,0 +1,35 @@
+[global_config]
+  focus = mouse
+  window_state = maximise
+  borderless = True
+  extra_styling = False
+  title_hide_sizetext = True
+  title_transmit_fg_color = "#000000"
+  title_transmit_bg_color = "#000000"
+  title_use_system_font = False
+  title_font = DroidSansMono Nerd Font 9
+[keybindings]
+  zoom_in = <Primary><Shift>plus
+[profiles]
+  [[default]]
+    icon_bell = False
+    background_darkness = 0.92
+    cursor_color = "#a9b1d6"
+    show_titlebar = False
+    split_to_group = True
+    copy_on_selection = True
+    scrollback_infinite = True
+    use_system_font = False
+    font = DroidSansMono Nerd Font 11
+    background_color = "#1a1b26"
+    foreground_color = "#a9b1d6"
+    palette = "#1a1b26:#f7768e:#9ece6a:#e0af68:#7aa2f7:#9a7ecc:#4abaaf:#acb0d0:#4e5173:#f7768e:#9ece6a:#e0af68:#7aa2f7:#9a7ecc:#4abaaf:#acb0d0"
+[layouts]
+  [[default]]
+    [[[window0]]]
+      type = Window
+      parent = ""
+    [[[child1]]]
+      type = Terminal
+      parent = window0
+[plugins]
